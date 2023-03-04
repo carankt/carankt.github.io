@@ -11,8 +11,8 @@ body{
 	font-size:1.4rem;
 	line-height:1.54;
 	letter-spacing:-.04em;
-	background-color:rgb(64,64,64);
-	background-color:rgb(64,64,64);
+	background-color:rgb(0,0,0);
+	background-color:rgb(0,0,0);
 	color:#fff;
 	color:var(--color);
 	text-rendering:optimizeLegibility;
@@ -620,13 +620,13 @@ pre[data-line]{
 .line-numbers .line-highlight:after,.line-numbers .line-highlight:before{
 	content:none
 }
-:root{
-	--accent:#ffa86a;
-	--phoneWidth:(max-width:684px);
-	--tabletWidth:(max-width:900px);
-	--accent:#ff9933;
-	--background:rgb(33, 32, 44);
-	--background:rgb(33, 32, 44);
-	--color:#fff;
-	--border-color:hsla(0,0%,100%,0.1)
+:root {
+    --accent: #ffa86a;
+    --phoneWidth: (max-width:684px);
+    --tabletWidth: (max-width:900px);
+    --accent: #33ffec;
+    --background: rgb(33, 32, 44);
+    --background: rgb(33, 32, 44);
+    --color: #fff;
+    --border-color: hsla(0,0%,100%,0.1);
 }
