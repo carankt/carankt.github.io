@@ -630,3 +630,14 @@ pre[data-line]{
     --color: #fff;
     --border-color: hsla(0,0%,100%,0.1);
 }
+
+.social-media-links {
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.social-media-links .social-link {
+    margin-right: 10px; /* Space between icons */
+    font-size: 40px; /* Size of the icons */
+    vertical-align: middle; /* Align icons if needed */
+}
+
