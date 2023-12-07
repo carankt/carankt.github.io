@@ -641,3 +641,19 @@ pre[data-line]{
     vertical-align: middle; /* Align icons if needed */
 }
 
+.about-me-container {
+    display: flex;
+    align-items: start;
+    gap: 20px; /* Adjust the gap between columns as needed */
+}
+
+.about-me-photo img {
+    max-width: 100%; /* Ensures the image is not larger than its container */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.about-me-content {
+    flex-grow: 1;
+}
+
+
